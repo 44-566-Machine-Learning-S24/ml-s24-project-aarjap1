@@ -9,5 +9,3 @@ Whereas in the decision tree classifier the r-squared value for the training set
 The SVM model in the training set and testing set had a R-squared value of 0.37 and 0.336 respectively which overall again does better than the Linear regression model.
 
 If comparing the SVM and decision tree classifier, the decision tree classifier does better than the SVM model in the testing set whereas in the training set the SVM does better than the decision tree classfier. But overall SVM model is better as it's metrics are more consistent compared to that of decision tree classifier.
-
-Compared to milestone 1 I have also introduced two new features gender and race which I have converted to numerical type in this project. I introduced them since it would help predict the parental level of education more better.
