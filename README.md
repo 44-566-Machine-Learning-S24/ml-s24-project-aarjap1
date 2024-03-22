@@ -2,6 +2,8 @@
 # 44-566 machine-learning project
 Repo for all project documents
 
+Compared to milestone 1 I have also introduced two new features gender and race which I have converted to numerical type in this project. I introduced them since it would help predict the parental level of education more better.
+
 After doing the model on Decision tree classifier and SVM, compared to the linear regression model my dataset does overall better looking at the metrics value such as the R-squared value and the root mean squared error. In the previous milestone the linear regression model score for the r-squared was 0.00030304875264952624 which indicated the model is not effectively explaining the variability in the data and is likely not a good fit for the given dataset.
 
 Whereas in the decision tree classifier the r-squared value for the training set and testing set was 0.894 and 0.312 respectively which means the decision tree classifier model does overall better compared to the Linear regression model. However looking at the r-squared value for training and testing set for decision tree classifier we can see the huge gap in the value of r-squared which suggests that the model looks to be overfitting
@@ -10,4 +12,5 @@ The SVM model in the training set and testing set had a R-squared value of 0.37 
 
 If comparing the SVM and decision tree classifier, the decision tree classifier does better than the SVM model in the testing set whereas in the training set the SVM does better than the decision tree classfier. But overall SVM model is better as it's metrics are more consistent compared to that of decision tree classifier.
 
-Compared to milestone 1 I have also introduced two new features gender and race which I have converted to numerical type in this project. I introduced them since it would help predict the parental level of education more better.
+I have also done the Linear kernel classifier which does overall well with R-squared value of 0.404 and 0.312 in training and testing set respectively but compared to SVM RBF classifier the SVM RBF is still prefered as it is more consistent with it's r-squared value in both training and testing set.
+
