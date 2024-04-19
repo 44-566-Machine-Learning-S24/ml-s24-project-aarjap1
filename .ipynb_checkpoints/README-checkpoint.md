@@ -2,15 +2,15 @@
 # 44-566 machine-learning project
 Repo for all project documents
 
+Please find the README_Final Project if you are looking for the final project submission with links to raw_data, data, analysis and conclusion.
+
 README
 
 My project is a classification problem which predicts the parental level of education on 4 categories Bachelor's degree, Master's degree and associate's degree using features such as race, gender and student's score. My initial goal at the beginning was to predict the Parental level of education using other features present in the dataset which I sticked with throughout the project because I thought the co-relation between the features in the dataset would be interesting.
 
-2. RAW_DATA
 I acquired my dataset from kaggle. I went through multiple datasets but choose to go with this one because I thought it would interesting and fun to predict Parental Level of education by looking through features such as Student's grade in different exams, their gender and race as well. The name of my dataset is "Student Performance In Exams". 
 KAGGLE DATASET LINK : https://www.kaggle.com/code/spscientist/student-performance-in-exams/input
 
-3. DATA
 Initial exploration link : http://localhost:8890/lab/tree/Machine%20Learning%20Repos/ml-s24-project-aarjap1/initial_exploration.ipynb
 For my intial exploration my target was to predict the parental level of education using the scores provided in the dataset which consisted of reading, writing and math score. Instead of using reading, writing and math score individually I thought I would use a new feature called Total Score which would combine the three score to predict parental level of education. Since the parental level of education was a non-numeric type I convert the feature to a numeric type with a mapping "bachelor's degree": 1, 'some college': 2, "master's degree": 3, and "associate's degree": 4.
 
@@ -30,12 +30,9 @@ I have did the Linear kernel classifier which does overall well with training ac
 
 Coming to milestone 3, I applied dimension reduction to my dataset and did the Random Forest classifier model. The model had an weighted average for the all the performance metrics(precision, recall, f1-score) we got was 0.87 which was extremely well. With neural nets model also my dataset did really well. Almost to well with 100% accuracy across all performance metrics which are precision, recall and f1-score. There is a high possibility of overfitting looking at the confusion matrix. Hence I learned my dataset classification problem does really well on Random Forest and also on neural nets but with a sign of overfitting.
 
-4. ANALYSIS
 After doing the classification modeling I learned that my dataset did overall very well in SVM, SVM linear kernel, Random Forest and Decision tree model as my dataset is a classification problem compared to regression models. Even though the classification models were not able to accurately predict the parental level of education I felt like it was more of a dataset problem of not having enough features. The features I used to predict parental level of education were Total students score, Gender and Race. I felt like the Gender and Race were not much of help in predicting the parental level of education. And the other features in the dataset were not much of help either which I could use because the features were Lunch which wouldn't be of a much help in predicting the parental level of education so I left those features out.
 
 If I were to have more features I would ask the person who made the dataset to add features like Parent's job, Student's previous semster GPA's, study hours and so on which could play a huge factor in prediciting the outcome.
-
-5. CONCLUSIONS
 
 Overall, my main findings were that the best model was the SVM and Random Forest classifier model for my classification dataset to predict Parental level of education using the three features race, gender and student's score. 
 SVM Link : http://localhost:8890/lab/tree/Machine%20Learning%20Repos/ml-s24-project-aarjap1/classification.ipynb
