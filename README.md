@@ -4,7 +4,7 @@ Repo for all project documents
 
 Please find the README_Final Project if you are looking for the final project submission with links to raw_data, data, analysis and conclusion.
 
-README
+README ( This read me was to keep track of milestones. The Final Project readme is in the notebook README_Final Project.ipynb )
 
 My project is a classification problem which predicts the parental level of education on 4 categories Bachelor's degree, Master's degree and associate's degree using features such as race, gender and student's score. My initial goal at the beginning was to predict the Parental level of education using other features present in the dataset which I sticked with throughout the project because I thought the co-relation between the features in the dataset would be interesting.
 
