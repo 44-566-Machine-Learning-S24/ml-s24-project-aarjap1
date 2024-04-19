@@ -3,6 +3,7 @@
 Repo for all project documents
 
 Please find the README_Final Project if you are looking for the final project submission with links to raw_data, data, analysis and conclusion.
+Link to README_Final Project : https://github.com/44-566-Machine-Learning-S24/ml-s24-project-aarjap1/blob/master/README_Final%20Project.ipynb
 
 README ( This read me was to keep track of milestones. The Final Project readme is in the notebook README_Final Project.ipynb )
 
