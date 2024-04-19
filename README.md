@@ -2,7 +2,7 @@
 # 44-566 machine-learning project
 Repo for all project documents
 
-README
+1.README
 
 My project is a classification problem which predicts the parental level of education on 4 categories Bachelor's degree, Master's degree and associate's degree using features such as race, gender and student's score. My initial goal at the beginning was to predict the Parental level of education using other features present in the dataset which I sticked with throughout the project because I thought the co-relation between the features in the dataset would be interesting.
 
